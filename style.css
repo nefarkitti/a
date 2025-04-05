@@ -1,0 +1,39 @@
+@font-face {
+    font-family: Classic Console Neue;
+    src: url(clacon2.ttf);
+}
+
+* {
+    font-family: Classic Console Neue;
+    user-select: none;
+}
+
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 50px;
+}
+
+page {
+
+    width: 60%;
+
+}
+
+.dir {
+
+    filter: opacity(20%);
+
+}
+
+a {
+
+    text-decoration: none;
+    color: white;
+
+}
