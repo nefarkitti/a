@@ -37,3 +37,7 @@ a {
     color: white;
 
 }
+
+.hoverable:hover::after{
+    content: " <";
+}
